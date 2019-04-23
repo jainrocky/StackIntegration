@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<android.support.design.widget.AppBarLayout
+    android:id="@+id/appbar_home"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    app:layout_behavior="com.example.rockyjain.stackintegration.FixAppBarLayoutBehavior">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_home"
+        app:title="@string/app_name"
+        android:layout_height="48dp"
+        android:layout_width="match_parent"
+        app:layout_scrollFlags="scroll|enterAlways|snap"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout_home"
+        app:tabMode="fixed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicatorColor="@android:color/white">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/trending_tab_item_main"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/tag"/>
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/recent_tab_item_main"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/hot"/>
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/favourites_tab_item_main"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/Week"/>
+
+    </android.support.design.widget.TabLayout>
+
+</android.support.design.widget.AppBarLayout>
+
+<android.support.v4.widget.NestedScrollView
+    android:id="@+id/nested_view_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager_home"
+        android:layout_width="match_parent"
+        android:fitsSystemWindows="true"
+        android:layout_height="match_parent"/>
+
+</android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

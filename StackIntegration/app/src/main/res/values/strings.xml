@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">StackIntegration</string>
+    <string name="tag">#Tags</string>
+    <string name="hot">Hot</string>
+    <string name="Week">Week</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_interest_toolbar">Choose Four Topics</string>
+</resources>
