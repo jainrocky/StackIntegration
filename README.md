@@ -2,7 +2,7 @@
 
 * Assignment By Upgrad
 
-## Login Activity(Dummy Login or without using api_key)
+## Login Activity(Dummy Login or without using api_authentication )
 
 <img src="https://user-images.githubusercontent.com/42575795/56592337-1800fc00-6608-11e9-9c6d-98f58ba03056.jpg" width="350" height="700">
 
