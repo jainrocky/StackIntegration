@@ -1,5 +1,6 @@
 # stackIntegration
 
+* Assignment By Upgrad
 
 ## Login Activity(Dummy Login or without using api_key)
 
@@ -39,6 +40,11 @@
 ## share link
 
 <img src="https://user-images.githubusercontent.com/42575795/56592507-71692b00-6608-11e9-8698-cca8c04f0a56.jpg" width="350" height="700">
+
+
+## Share Example For telegram
+
+<img src="https://user-images.githubusercontent.com/42575795/56594561-b2623f00-660a-11e9-83d2-fca1c1a134b3.PNG" width="350" height="400">
 
 
 ## Navigation Drawer
